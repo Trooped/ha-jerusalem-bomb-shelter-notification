@@ -2,7 +2,7 @@
 
 A HA script with a notification to your phone with the 3 closest bomb shelters to your current location. 
 
-This project is built specifically using the Jerusalem municipality's shelter dataset, but it can be adapted to any city by modifying the CSV file. It actively pings your phone for fresh GPS coordinates so you always get the closest shelters, whether you are at home in Katamon or out and about.
+This project is built specifically using the Jerusalem municipality's shelter dataset, but it can be adapted to any city by modifying the CSV file. It actively pings your phone for fresh GPS coordinates so you always get the closest shelters, whether you are at home or out and about.
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -58,7 +58,7 @@ This sequence wakes up your phone's GPS using an invisible notification, waits 5
 
 1. Go to Settings > Automations & Scenes > Scripts.
 2. Click Add Script and choose Edit in YAML.
-3. Paste your script configuration:
+3. Paste the following script and make sure to change your notification and person entity to your specific ones:
 
 ```yaml
 alias: Send Nearest Shelters
