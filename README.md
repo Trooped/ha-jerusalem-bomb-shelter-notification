@@ -17,7 +17,7 @@ This project is built specifically using the Jerusalem municipality's shelter da
 - Smartphone with the Home Assistant Companion App installed.
 - Location Permissions granted to the Home Assistant app on your phone (and a person.YOURNAME entity with your location).
   - **Android Users:** Ensure the HA app is excluded from battery optimization so it wakes up instantly when the location is requested.
-  - **iOS Users:** Ensure Location Permissions are set to **"Always"** with **"Precise Location"** turned ON. **Background App Refresh** must also be enabled.
+  - **iOS Users:** Ensure Location Permissions are set to **"Always"** with **"Precise Location"** turned ON. **Background App Refresh** must also be enabled. **NOTE** - it was NOT tested on iOS. I hope it works the same, and requires only minimal changes.
 - A CSV file containing shelter data (`Records.csv`).
 - Preferably - Google Maps app on your phone.
 
