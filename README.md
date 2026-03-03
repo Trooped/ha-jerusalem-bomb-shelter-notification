@@ -10,6 +10,7 @@ This project is built specifically using the Jerusalem municipality's shelter da
 - [Step 2: The Python Script](#step-2-the-python-script)
 - [Step 3: Configure the Shell Command](#step-3-configure-the-shell-command)
 - [Step 4: Create the Home Assistant Script](#step-4-create-the-home-assistant-script)
+- [Step 5: Use The Script However You Want](#step-5-use-the-script-however-you-want)
 
 ## Requirements
 - Home Assistant
